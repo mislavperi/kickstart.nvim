@@ -652,11 +652,12 @@ require('lazy').setup({
       end,
       formatters_by_ft = {
         lua = { 'stylua' },
-        markdown = { { 'prettierd', 'prettier' } },
-        javascript = { { 'prettierd', 'prettier' } },
-        typescript = { { 'prettierd', 'prettier' } },
-        yaml = { { 'prettierd', 'prettier' } },
-        html = { { 'prettierd', 'prettier' } },
+        markdown = { { 'prettierd' } },
+        javascript = { { 'prettierd' } },
+        typescript = { { 'prettierd' } },
+        yaml = { { 'prettierd' } },
+        html = { { 'prettierd' } },
+        go = { { 'prettierd' } },
         -- Conform can also run multiple formatters sequentially
         -- python = { "isort", "black" },
         --
