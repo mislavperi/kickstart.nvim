@@ -658,6 +658,7 @@ require('lazy').setup({
         yaml = { { 'prettierd' } },
         html = { { 'prettierd' } },
         go = { { 'prettierd' } },
+        css = { { 'prettierd' } },
         -- Conform can also run multiple formatters sequentially
         -- python = { "isort", "black" },
         --
